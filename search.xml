@@ -5,12 +5,37 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2023/07/14/hello-world/"/>
-      <url>/2023/07/14/hello-world/</url>
+      <link href="/2023/11/06/hello-world/"/>
+      <url>/2023/11/06/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于动作捕捉技术的应用</title>
+      <link href="/2022/12/11/%E6%88%91%E7%9A%84/"/>
+      <url>/2022/12/11/%E6%88%91%E7%9A%84/</url>
+      
+        <content type="html"><![CDATA[<p><img src="file:///C:\Users\华子\AppData\Local\Temp\ksohtml20196\wps1.png"></p><h1 id="什么是动作捕捉"><a href="#什么是动作捕捉" class="headerlink" title="什么是动作捕捉"></a><strong>什么是动作捕捉</strong></h1><p>动作捕捉是运动物体的关键部位设置跟踪器。意同：<a href="https://baike.baidu.com/item/%E8%BF%90%E5%8A%A8%E6%8D%95%E6%8D%89/4102164?fromModule=lemma_inlink">运动捕捉</a>英文Motion capture,简称Mocap。技术涉及尺寸测量、物理空间里物体的定位及方位测定等方面可以由计算机直接理解处理的数据。在运动物体的关键部位设置跟踪器，由Motion capture系统捕捉跟踪器位置，再经过计算机处理后得到三维空间坐标的数据。当数据被计算机识别后，可以应用在动画制作，步态分析，生物力学，人机工程等领域。常用的运动捕捉技术从原理上说可分为机械式、声学式、电磁式、主动光学式和被动光学式。不同原理的设备各有其优缺点，一般可从以下几个方面进行评价：定位精度；实时性；使用方便程度；可捕捉运动范围大小；抗干扰性；多目标捕捉能力；以及与相应领域专业分析软件连接程度。此外，还有惯性导航运动捕捉 。</p><p>从技术的角度来说，运动捕捉的实质就是要测量、跟踪、记录物体在三维空间中的运动轨迹。典型的运动捕捉设备一般由以下几个部分组成：</p><ul><li>传感器</li><li>信号捕捉设备。</li><li>数据传输设备</li><li>数据处理设备<br><img src="file:///C:\Users\华子\AppData\Local\Temp\ksohtml20196\wps2.jpg"></li></ul><h1 id="为什么动作捕捉很受欢迎"><a href="#为什么动作捕捉很受欢迎" class="headerlink" title="为什么动作捕捉很受欢迎"></a>为什么动作捕捉很受欢迎</h1><p>在动作捕捉技术出现之前，这些动作都是需要人工一帧一帧画上去的。无论是2D还是3D，动画还是游戏，都要求动画师&#x2F;动作师根据感觉和经验，一点一点手调关键帧，把角色的动作逐帧模拟出来。这种生产方式的缺点很明显：</p><ul><li><p>逐帧抠动画的效率非常低，很难大批量生产；</p></li><li><p>纯凭动画师的经验和脑补，如果碰上杂技、打斗、舞蹈之类的复杂动作，一不小心就会画崩；</p></li><li><p>过于依赖动画师的个人素质，不同层次的动画师做出来的动作天差地别，导致产品的成本和质量基本处于不可控状态。动捕技术的优点非常突出。一是效率高，所见即所得，不需要动画师绞尽脑汁去想象复杂的动作；二是成本低，虽然一套动捕设备的价格不菲，但由于可以大批量生产动作，而且速度很快，可以节约巨大的时间成本，平摊到每个动作上往往都很便宜；三是入门门槛低，不太依赖大神动画师，对于小团队来说非常友好。</p></li><li><p>这里我们介绍一下转描手法作为对比：[什么是转描（Rotoscoping） - 知乎 (zhihu.com)]<br>(<a href="https://zhuanlan.zhihu.com/p/359647847">https://zhuanlan.zhihu.com/p/359647847</a>)</p></li></ul><p>我们拿电影举例，一部好的电影需要好的剧本和人物契合和道具场地，简单来说就是故事的三要素：剧情，人物，环境。剧本是很好解决的，大家都在写，千万个作品里面肯定有不少值得细读的，但是如果我们想把纸质文学转化为影视展现出来，怎样能最好贴切原著里的描写是最头疼的。就目前来说，能贴合原著的影视剧很少，更别说超越了。笔者认为：把文字转化为画面就是为了能让读者更多地深入其中获得体验，相比于文字，大家肯定喜欢看图像来的快一点，文字里阐述的画面不能更直观地让读者体验到，即使再天马行空的画面描写，不如现代技术复刻出来。<br>动作捕捉技术的崛起无疑是解决人物这一块的最好方法，而通过电脑建模也可以解决环境的问题，故现在和未来的电影很大程度上需要信息技术的支持。</p><h1 id="动作捕捉应用在哪里呢："><a href="#动作捕捉应用在哪里呢：" class="headerlink" title="动作捕捉应用在哪里呢："></a><strong>动作捕捉应用在哪里呢：</strong></h1><h2 id="游戏-第九艺术：各种3a大作的制作"><a href="#游戏-第九艺术：各种3a大作的制作" class="headerlink" title="游戏-第九艺术：各种3a大作的制作"></a>游戏-第九艺术：各种3a大作的制作</h2><p>早些时候我对3a游戏的认识是：要花钱，基本都是单人游戏，流程很长。后来上网一搜是高成本、高体量、高质量的意思，但也没对其感兴趣。知道疫情的时候在家不知道干什么，Epic送了一部死亡搁浅，然后网上一直说这部作品怎么好，怎么好，我就尝试地玩了一下，之后就对于3a欲罢不能了。总体来说，它像是买了一张电影票，整个游戏流程像极了看一场电影，但我们要将自己代入到主角，自己去对于故事的走向做出抉择，再融入一些游戏的玩法。听上去像是一边玩游戏一边看电影的感觉，光这样说感觉很无聊，其最打动我的，是我能在开放的游戏世界里找到现实，就拿我买的很多部《刺客信条》来说，对于一个宅在家里的穷光蛋，怎么可能有时间和经历出去旅游，但是在其作品里面，我既可以生活在工业革命的伦敦，闲逛巴黎圣母院和参加法国大革命。相比于电影里一切注定的镜头和动作，营造足够还原的人文气息，自己探索。最近几年很多专家呼吁我们从实景学习，光读书的结果是什么都不知道，相比于枯燥乏味的书本，难当不更应该让孩子从事件里面成长获得自己的认知吗，</p><h2 id="影视-需要赚钱的艺术：最早比如阿凡达"><a href="#影视-需要赚钱的艺术：最早比如阿凡达" class="headerlink" title="影视-需要赚钱的艺术：最早比如阿凡达"></a>影视-需要赚钱的艺术：最早比如阿凡达</h2><h2 id="VR与元宇宙-人工智能-未来的艺术"><a href="#VR与元宇宙-人工智能-未来的艺术" class="headerlink" title="VR与元宇宙-人工智能&#x2F;未来的艺术"></a>VR与元宇宙-人工智能&#x2F;未来的艺术</h2><h2 id="其他领域：模拟动作，流浪地球二的防盗门狗"><a href="#其他领域：模拟动作，流浪地球二的防盗门狗" class="headerlink" title="其他领域：模拟动作，流浪地球二的防盗门狗"></a>其他领域：模拟动作，流浪地球二的防盗门狗</h2><h2 id="简单的动作捕捉入门-MMD："><a href="#简单的动作捕捉入门-MMD：" class="headerlink" title="简单的动作捕捉入门-MMD："></a>简单的动作捕捉入门-MMD：</h2><h1 id="一些小感悟："><a href="#一些小感悟：" class="headerlink" title="一些小感悟："></a>一些小感悟：</h1><p>一个国家需要有严密的艺术评判系统，比如奥斯卡奖，他的影响很大，因为在早期好莱坞确实生产了不少好看的电影，极具艺术色彩，并且在进入信息时代以后更是因强大的特效技术而立于不败之地，港片的没落也是因为没有抓住这班车，人们更喜欢去电影院体验3d。之后好莱坞通过强大的工业生产电影体系，更是占领整个市场，并且他们可以通过电影传达自己的价值观念和政治正确等理念。而现今，有《流浪地球》等众多国产科幻片的崛起，</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 感悟 </tag>
+            
+        </tags>
       
     </entry>
     
